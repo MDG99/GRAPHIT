@@ -7,8 +7,6 @@ This repository contains the source code for GRAPHIT, a tool designed to quantif
 The repository is organized as follows:
 
 * `src/`: Contains the Python scripts required to perform each processing stage.
-* `data/`: Serves as the template directory. Images targeted for analysis must be placed here.
-* `results/`: Automatically generated upon execution to store the processed outputs.
 
 ## Prerequisites
 
