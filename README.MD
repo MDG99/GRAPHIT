@@ -1,6 +1,6 @@
 # GRAPHIT (GRAPH Interconnectivity Tool)
 
-This repository contains the code for GRAPHIT, a tool designed to quantify the interconnectivity of electrical networks. It serves as complementary data and software for the paper " Quantifying electrical network interconnectivity using graph theory” by H. Canché-Sandoval, I. Isaac-Medina, O. Solís-Canto, A. Castillo-Atoche, and F. Avilés.
+This repository contains the source code for GRAPHIT, a tool designed to quantify the interconnectivity of electrical networks. It serves as complementary data and software for the paper " Quantifying electrical network interconnectivity using graph theory” by H. Canché-Sandoval, I. Isaac-Medina, O. Solís-Canto, A. Castillo-Atoche, and F. Avilés.
 
 ## Repository Structure
 
@@ -39,7 +39,7 @@ To start using the GRAPHIT software, follow these steps:
     python src/main.py
     ```
 5.  **Monitor the console:** In the terminal, you will see a message indicating the specific folder created for each processed image. The naming convention for these output folders is: 
-    `YYYYMMDDHHMMSS_ImageName`
+    `YYYYMMDDHHmmsss_ImageName`
 6.  **Review the output:** Navigate to the `results/` directory. Inside, you will find subdirectories for each image containing the following files:
     * `ImageName_1_Original.jpg`: A copy of the source image under analysis.
     * `ImageName_2_Binary.jpg`: The result after applying the binary operation.
