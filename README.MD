@@ -10,7 +10,9 @@ The repository is organized as follows:
 
 ## Prerequisites
 
-The software requires the following libraries:
+This software requires Python 3.11 or higher.
+
+The required libraries are listed below and can be easily installed using the provided requirements.txt file:
 
 * `networkx==3.6.1`
 * `numpy==2.4.6`
@@ -20,25 +22,35 @@ The software requires the following libraries:
 * `scipy==1.17.1`
 * `skan==0.13.1`
 
-A `requirements.txt` file is provided in the repository to facilitate the installation process.
-
 ## Getting Started
 
 To start using the GRAPHIT software, follow these steps:
 
-1.  **Set up your environment:** Create a virtual environment and install the required dependencies:
+1.  **Set up your environment:** It is recommended to create and activate a new virtual environment:
+    ```bash
+    python -m venv venv
+    # On Windows:
+    venv\Scripts\activate
+    # On macOS/Linux:
+    source venv/bin/activate
+    ```
+2.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-2.  **Prepare the data directory:** Create a directory named `data/` in the root of this project (if it does not already exist).
-3.  **Upload images:** Place the images you wish to analyze inside the `data/` folder.
-4.  **Execute the software:** Run the main script from your terminal:
+3.  **Prepare the data directory:** Create a directory named `data/` in the root of this project (if it does not already exist).
+4.  **Upload images:** Place the images you wish to analyze inside the `data/` folder.
+5.  **Navigate to the source directory:**
     ```bash
-    python src/main.py
+        cd src
     ```
-5.  **Monitor the console:** In the terminal, you will see a message indicating the specific folder created for each processed image. The naming convention for these output folders is: 
+6.  **Execute the software:** Run the main script from your terminal:
+    ```bash
+    python main.py
+    ```
+7.  **Monitor the console:** In the terminal, you will see a message indicating the specific folder created for each processed image. The naming convention for these output folders is: 
     `YYYYMMDDHHmmsss_ImageName`
-6.  **Review the output:** Navigate to the `results/` directory. Inside, you will find subdirectories for each image containing the following files:
+8.  **Review the output:** Navigate to the `results/` directory. Inside, you will find subdirectories for each image containing the following files:
     * `ImageName_1_Original.jpg`: A copy of the source image under analysis.
     * `ImageName_2_Binary.jpg`: The result after applying the binary operation.
     * `ImageName_3_Close.jpg`: The image obtained after applying the closing morphological operation.
