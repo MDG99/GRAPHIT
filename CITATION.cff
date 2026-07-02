@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+title: "GRAPHIT"
+version: 1.0.0
+date-released: 2026-06-15
+url: "https://github.com/MDG99/GRAPHIT"
+repository-code: "https://github.com/MDG99/GRAPHIT"
+authors:
+  - given-names: "Helbert"
+    family-names: "Canché-Sandoval"
+    affiliation: "Centro de Investigación Científica de Yucatán A.C."
+  - given-names: "Ignacio"
+    family-names: "Isaac Medina"
+    affiliation: "Centro de Investigación Científica de Yucatán A.C."
+  - given-names: "Alejandro"
+    family-names: "Castillo-Atoche"
+    affiliation: "Universidad Autónoma de Yucatán"
+  - given-names: "Francis"
+    family-names: "Avilés"
+    affiliation: "Centro de Investigación Científica de Yucatán A.C."
